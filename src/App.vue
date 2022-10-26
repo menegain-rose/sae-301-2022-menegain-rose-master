@@ -4,7 +4,7 @@
 import Authentification from "@/pages/AuthentificationView.vue"
 import Personnalisation from "@/pages/PersonnalisationView.vue"
 import Vosmodeles from "@/pages/VosmodelesView.vue"
-import Bouton from "@/components/bouton.vue"
+import BoutonAut from "@/components/boutonaut.vue"
 
 import Facebook from "@/components/Icons/IconFacebook.vue"
 import Instagram from "@/components/Icons/IconInstagram.vue"
@@ -59,12 +59,12 @@ import Pinterest from "@/components/Icons/IconPinterest.vue"
   
           <li class="m-3">
             <router-link to="/authentificationview">
-              <Bouton class="bg-opacity-25 text-OffWhite flex">
+              <BoutonAut class="bg-opacity-25 text-OffWhite flex">
                 <img src="/Icons/IconProfil.svg" class="mr-2" alt="Icon Profil">
                 <h3>
                   Connection
                 </h3>
-              </Bouton>
+              </BoutonAut>
             </router-link>
           </li>
   

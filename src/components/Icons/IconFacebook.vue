@@ -1,10 +1,4 @@
 <template>
-  <svg width="1.2em" height="1.2em" viewBox="0 0 256 256">
-    <path fill="#FCFCFB" d="M230 128a102 102 0 1 0-102 102a102.1 102.1 0 0 0 102-102Zm-96 89.8V150h26a6 6 0 0 0 0-12h-26v-26a18.1 18.1 0 0 1 18-18h16a6 6 0 0 0 0-12h-16a30.1 30.1 0 0 0-30 30v26H96a6 6 0 0 0 0 12h26v67.8a90 90 0 1 1 12 0Z"></path></svg>
-</template>
-
-<script>
-export default {
-  name: 'PhFacebookLogoLight'
-}
-</script>
+    <svg width="1.2em" height="1.2em" viewBox="0 0 256 256"><path fill="#FCFCFB" d="M228 128a100 100 0 1 0-100 100a100.2 100.2 0 0 0 100-100Zm-96 91.9V148h28a4 4 0 0 0 0-8h-28v-28a20.1 20.1 0 0 1 20-20h16a4 4 0 0 0 0-8h-16a28.1 28.1 0 0 0-28 28v28H96a4 4 0 0 0 0 8h28v71.9a92 92 0 1 1 8 0Z"></path></svg>
+  </template>
+  
