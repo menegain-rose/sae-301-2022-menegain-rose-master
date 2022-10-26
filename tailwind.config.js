@@ -23,7 +23,7 @@ module.exports = {
         "big": "1.75"
       },
       fontFamily: {
-        "raleway": "Raleway",
+        "raleway": ['Athiti', 'sans-serif'],
         "athiti": ['Athiti', 'sans-serif']
       },
       borderRadius: {
