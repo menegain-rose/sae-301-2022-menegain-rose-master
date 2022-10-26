@@ -9,9 +9,9 @@ import { supabase, user } from '../supabase';
 <template>
   <main class="my-20 mx-20">
     <section v-if="user">
-      <button @pointerdown="supabase.auth.signOut()">
+      <Bouton @pointerdown="supabase.auth.signOut()">
                     Se déconnecter ({{user.email}})
-                </button>
+      </Bouton>
     </section>
 
     <section  v-else class="bg-MediumBeige px-10 pb-10 rounded-lg">
