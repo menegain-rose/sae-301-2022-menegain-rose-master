@@ -34,6 +34,45 @@ import Bouton from "@/components/bouton.vue"
         </h2>
       </div>
     </div>
+    <div>
+      <div>
+        <h2>
+          Les montres TIK•TAK sont réfléchies pour vous convenir le mieux possible
+        </h2>
+        <p>
+          Découvrez nos modèles conçu par nos meilleurs designers. <br>
+          Les montres TIK•TAK sont des montres professionnelles, simples et vous conviendrons très certainement.
+        </p>
+        <Bouton class=" text-OffWhite flex">
+            <h3>
+              Découvrir
+            </h3>
+          </Bouton>
+      </div>
+      <div class="flex">
+        <img src="/Images/ComposantMontreBeige.png" class="mr-5" alt="Composant Montre Beige">
+        <img src="/Images/ComposantMontreViolet.png" class="mr-5" alt="Composant Montre Violet">
+        <img src="/Images/ComposantMontreVerte.png" class="mr-5" alt="Composant Montre Verte">
+        <img src="/Images/ComposantMontreBleu.png" class="mr-5" alt="Composant Montre Bleu">
+      </div>
+      <div>
+        <h2>
+          Nos montres waterproof !
+        </h2>
+        <p>
+          Nos montres sont water proof; Vous voulez rester à la mode même en vous baignant ? <br>
+          N’ayez plus d’hésitation et adoptez les montres TIK•TAK ! 
+        </p>
+        <Bouton class=" text-OffWhite flex">
+            <h3>
+              Découvrir
+            </h3>
+          </Bouton>
+      </div>
+      <div class="flex">
+        <img src="/Images/Image_SousMarins.png" class="mr-5" alt="Image Sous Marins">
+      </div>
+    </div>
 
   </section>
 </template>
