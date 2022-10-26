@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // import { Bars3Icon } from "@heroicons/vue/20/solid";
+import { user } from './supabase';
 
 import Authentification from "@/pages/AuthentificationView.vue"
 import Personnalisation from "@/pages/PersonnalisationView.vue"
@@ -61,8 +62,11 @@ import Pinterest from "@/components/Icons/IconPinterest.vue"
             <router-link to="/authentificationview">
               <BoutonAut class="bg-opacity-25 text-OffWhite flex">
                 <img src="/Icons/IconProfil.svg" class="mr-2" alt="Icon Profil">
-                <h3>
+                <h3 v-if="!user">
                   Connection
+                </h3>
+                <h3 v-else>
+                  Profil
                 </h3>
               </BoutonAut>
             </router-link>

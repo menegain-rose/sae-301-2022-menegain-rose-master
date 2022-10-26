@@ -20,6 +20,10 @@
         @apply font-athiti font-light text-sm my-3
     }
 
+    h5 {
+        @apply font-raleway text-lg
+    }
+
     p {
         @apply font-raleway text-lg
     }

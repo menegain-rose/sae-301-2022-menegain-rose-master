@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'imageaccueil': "url('/Images/Image_Accueil.png')",
+        'imagebras': "url('/Images/Image_Bras.png')",
       }),
 
       colors: {

@@ -15,16 +15,16 @@ import Bouton from "@/components/bouton.vue"
       <div>
         <img src="/Montres/Montre_Noir.png" alt="Montre noir">
       </div>
-      <div class="">
-        <div class="flex">
-          <h2 class="text-red-600 font-bold mr-3">
-            -25% 
-          </h2>
-          <h2>
+      <div class="flex flex-col justify-center">
+        <div>
+          <h2 class="text-center">
+            <span class="text-red-600 font-bold mr-3">
+              -25%
+            </span> 
             en ce moment !
           </h2>
         </div>
-        <Bouton class=" text-OffWhite flex">
+        <Bouton class=" text-OffWhite w-max">
           <h3>
             Personnaliser
           </h3>
