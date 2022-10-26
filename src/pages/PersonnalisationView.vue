@@ -27,13 +27,16 @@ import Bouton from "@/components/bouton.vue"
 
       <div class="grid grid-cols-3">
         <div>
-          <img src="/Montres/SVGMontre.svg" alt="svg montre">
-          <p>
-            2 150 €
-          </p>
-          <p>
-            1 612 €
-          </p>
+          <div class="flex items-end">
+            <img src="/Montres/SVGMontre.svg" alt="svg montre">
+            <p class="text-sm line-through decoration-red-600"> 
+              2 150 €
+            </p>
+            <p>
+              1 612 €
+            </p>
+
+          </div>
           <div class="bg-imagebras w-80 h-96 m-10">
             <img src="/Montres/MontreSVG_Small.svg" class="relative left-16 top-[230px]" alt="svg montre sur poignet">
           </div>
@@ -54,8 +57,8 @@ import Bouton from "@/components/bouton.vue"
           <p>
             Ecran
           </p>
-          <div>
-            <Bouton class="text-OffWhite ">
+          <div class="mt-20">
+            <Bouton class="text-OffWhite mr-8">
               <h3>
                 Acheter
               </h3>
