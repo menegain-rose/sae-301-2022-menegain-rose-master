@@ -10,7 +10,7 @@ module.exports = {
         "LightBeige": "#EFECE6",
         "MediumBeige": "#CBC7BE",
         "MediumGray": "#4F4D4A",
-        "DarkGray": "#232221"
+        "darkgray": "#232221"
       },
       "fontSize": {
         "xs": "0.875",
