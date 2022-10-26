@@ -99,8 +99,82 @@ import Bouton from "@/components/bouton.vue"
               Plastique
             </p>
           </div>
-
         </div>
+      </div>
+
+      <div class="mx-36 mb-28">
+        <div>
+          <div class="mt-24">
+            <h2>
+              Les montres TIK•TAK sont réfléchies pour vous convenir le mieux possible
+            </h2>
+            <Bouton class="text-OffWhite">
+              <h3>
+                Découvrir
+              </h3>
+            </Bouton>
+          </div>
+        
+          <div class="flex justify-center gap-10 mt-5">
+            <router-link to="/AthenaView">
+              <img src="/Images/ComposantMontreBeige.png" class="" alt="Composant Montre Beige">
+            </router-link>
+            <img src="/Images/ComposantMontreViolet.png" class="" alt="Composant Montre Violet">
+            <img src="/Images/ComposantMontreVerte.png" class="" alt="Composant Montre Verte">
+            <img src="/Images/ComposantMontreBleu.png" class="" alt="Composant Montre Bleu">
+          </div>
+        </div>
+
+        <div class="mt-24">
+          <h2>
+            Nos clients on donnés leurs avis.
+          </h2>
+          <div class="grid grid-cols-2 gap-10 mt-5">
+            <div>
+              <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
+                <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
+                <p class="">
+                  Ces montres sont vraiment incroyable ! On sent le savoir faire.
+                </p>
+              </div>
+              <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
+                <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
+                <p class="">
+                  Un raport qualité/prix vraiment super !
+                </p>
+              </div>
+              <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
+                <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
+                <p class="">
+                  Ces montres sont comme on en a jamais vu, vraiment les meilleurs.
+                </p>
+              </div>
+            </div>
+  
+            <div>
+              <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
+                <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
+                <p class="">
+                  Je l’ai offerte à mon mari, j’en veut une aussi maintenant !
+                </p>
+              </div>
+              <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
+                <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
+                <p class="">
+                  J’en ai acheté plusieurs, elles offrent un charisme en plus à mes tenues.
+                </p>
+              </div>
+              <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
+                <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
+                <p class="">
+                  J’adore le fait qu’elles sois water proof, une qualité en plus !
+                </p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+
       </div>
     </section>
   </template>
