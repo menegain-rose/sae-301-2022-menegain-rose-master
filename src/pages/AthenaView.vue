@@ -1,7 +1,7 @@
 <template>
     <section>
-      <h1 class="text-2xl">
-        Athena<code class="font-mono text-base">/src/pages/index.vue</code>
+      <h1 class="text-DarkGray">
+        Athenaa
       </h1>
     </section>
   </template>

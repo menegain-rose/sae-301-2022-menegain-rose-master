@@ -1,7 +1,7 @@
 <template>
     <section>
-      <h1 class="text-2xl">
-        vos montres<code class="font-mono text-base">/src/pages/index.vue</code>
+      <h1 class="text-DarkGray">
+        montres
       </h1>
     </section>
   </template>
