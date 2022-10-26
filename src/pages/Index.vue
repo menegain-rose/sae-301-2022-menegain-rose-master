@@ -31,7 +31,8 @@ import Bouton from "@/components/bouton.vue"
           </h3>
         </Bouton>
         <h2 class="text-OffWhite">
-          Personnalisez votre montre,pour qu’elle vous ressemble !
+          Personnalisez votre montre, <br>
+          pour qu’elle vous ressemble !
         </h2>
       </div>
     </div>
@@ -45,18 +46,18 @@ import Bouton from "@/components/bouton.vue"
           Les montres TIK•TAK sont des montres professionnelles, simples et vous conviendrons très certainement.
         </p>
         <Bouton class=" text-OffWhite flex">
-            <h3>
-              Découvrir
-            </h3>
-          </Bouton>
+          <h3>
+            Découvrir
+          </h3>
+        </Bouton>
       </div>
-      <div class="flex">
+      <div class="flex gap-10">
         <router-link to="/AthenaView">
-          <img src="/Images/ComposantMontreBeige.png" class="mr-5" alt="Composant Montre Beige">
+          <img src="/Images/ComposantMontreBeige.png" class="" alt="Composant Montre Beige">
         </router-link>
-        <img src="/Images/ComposantMontreViolet.png" class="mr-5" alt="Composant Montre Violet">
-        <img src="/Images/ComposantMontreVerte.png" class="mr-5" alt="Composant Montre Verte">
-        <img src="/Images/ComposantMontreBleu.png" class="mr-5" alt="Composant Montre Bleu">
+        <img src="/Images/ComposantMontreViolet.png" class="" alt="Composant Montre Violet">
+        <img src="/Images/ComposantMontreVerte.png" class="" alt="Composant Montre Verte">
+        <img src="/Images/ComposantMontreBleu.png" class="" alt="Composant Montre Bleu">
       </div>
       <div>
         <h2>

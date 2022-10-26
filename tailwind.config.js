@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: theme => ({
         'imageaccueil': "url('/Images/Image_Accueil.png')",
         'imagebras': "url('/Images/Image_Bras.png')",
+        'ImageFondAthena': "url('/Images/ImageFondAthena.png')",
       }),
 
       colors: {
