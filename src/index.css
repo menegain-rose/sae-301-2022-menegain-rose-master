@@ -13,7 +13,7 @@
     }
 
     h3 {
-        @apply font-athiti font-light text-base
+        @apply font-athiti font-light text-base my-3 text-OffWhite
     }
 
     h4 {
