@@ -8,7 +8,7 @@ import { supabase, user } from '../supabase';
 
 <template>
   <main class="my-20 mx-20">
-      <section v-if="user">
+      <section v-if="user" class="text-OffWhite">
       <button @pointerdown="supabase.auth.signOut()">
         <Bouton>
           Se déconnecter ({{user.email}})
