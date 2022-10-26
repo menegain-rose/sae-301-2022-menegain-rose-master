@@ -2,6 +2,7 @@
 // import { Bars3Icon } from "@heroicons/vue/20/solid";
 import { user } from './supabase';
 
+import Athena from "@/pages/AthenaView.vue"
 import Authentification from "@/pages/AuthentificationView.vue"
 import Personnalisation from "@/pages/PersonnalisationView.vue"
 import Vosmodeles from "@/pages/VosmodelesView.vue"

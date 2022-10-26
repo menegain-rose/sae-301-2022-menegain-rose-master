@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Athena from "@/pages/AthenaView.vue"
 import Bouton from "@/components/bouton.vue"
 
 </script>
@@ -50,7 +51,9 @@ import Bouton from "@/components/bouton.vue"
           </Bouton>
       </div>
       <div class="flex">
-        <img src="/Images/ComposantMontreBeige.png" class="mr-5" alt="Composant Montre Beige">
+        <router-link to="/AthenaView">
+          <img src="/Images/ComposantMontreBeige.png" class="mr-5" alt="Composant Montre Beige">
+        </router-link>
         <img src="/Images/ComposantMontreViolet.png" class="mr-5" alt="Composant Montre Violet">
         <img src="/Images/ComposantMontreVerte.png" class="mr-5" alt="Composant Montre Verte">
         <img src="/Images/ComposantMontreBleu.png" class="mr-5" alt="Composant Montre Bleu">
