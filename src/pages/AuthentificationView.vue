@@ -1,9 +1,10 @@
 <script setup lang="ts">
 // import { Bars3Icon } from "@heroicons/vue/20/solid";
 import Bouton from "@/components/bouton.vue"
-
+import { supabase, user } from '../supabase';
 
 </script>
+
 
 <template>
   <main class="my-20 mx-20">
@@ -24,7 +25,7 @@ import Bouton from "@/components/bouton.vue"
               Continuer avec Facebook
             </p>
           </div>
-          <div class="py-3 px-6 my-10 rounded-sm bg-white text-black flex">
+          <div class="py-3 px-6 my-10 rounded-sm bg-white text-black flex" @pointerdown="supabase.auth.signIn({ provider: 'google' })">
             <img src="/Images/IconGoogle.png" class="w-auto h-6 mr-6" alt="Icon Google">
             <p>
               Continuer avec Google
@@ -35,7 +36,7 @@ import Bouton from "@/components/bouton.vue"
 
       <div class="flex justify-center">
         <Bouton class="text-OffWhite flex items-center">
-          <img src="/Icons/IconProfil.svg" class="mr-2" alt="Icon Profil">
+          <img src="/Icons/IconProfil.svg" class="mr-4" alt="Icon Profil">
           <h3>
             Connection
           </h3>

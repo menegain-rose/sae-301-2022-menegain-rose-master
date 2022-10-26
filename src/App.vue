@@ -28,7 +28,7 @@ import Pinterest from "@/components/Icons/IconPinterest.vue"
     <div>
       <nav>
         <ul class="flex items-center">
-  
+          
           <li class="m-3">
             <router-link to="/VosmodelesView">
               <h3>

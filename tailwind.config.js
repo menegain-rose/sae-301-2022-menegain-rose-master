@@ -6,6 +6,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'imageaccueil': "url('/Images/Image_Accueil.png')",
+      }),
+
       colors: {
         "OffWhite": "#FCFCFB",
         "LightBeige": "#EFECE6",
@@ -19,7 +23,7 @@ module.exports = {
         "base": "1rem",
         "lg": "1.125rem",
         "xl": "1.375rem",
-        "xxl": "1.563",
+        "xls": "1.563",
         "big": "1.75"
       },
       fontFamily: {
