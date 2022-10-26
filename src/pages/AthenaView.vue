@@ -64,18 +64,18 @@ import Bouton from "@/components/bouton.vue"
         </div>
   
         <div>
-          <div class="mt-32 flex">
+          <div class="mt-24">
             <h2>
               Les montres TIK•TAK sont réfléchies pour vous convenir le mieux possible
             </h2>
-            <Bouton class="-p-2 text-OffWhite">
+            <Bouton class="text-OffWhite">
               <h3>
                 Découvrir
               </h3>
             </Bouton>
           </div>
         
-          <div class="flex gap-10">
+          <div class="flex justify-center gap-10 mt-5">
             <router-link to="/AthenaView">
               <img src="/Images/ComposantMontreBeige.png" class="" alt="Composant Montre Beige">
             </router-link>
@@ -85,11 +85,11 @@ import Bouton from "@/components/bouton.vue"
           </div>
         </div>
         
-        <div>
+        <div class="mt-24">
           <h2>
             Nos clients on donnés leurs avis.
           </h2>
-          <div class="grid grid-cols-2 gap-10">
+          <div class="grid grid-cols-2 gap-10 mt-5">
             <div>
               <div class="bg-MediumBeige rounded-xs inline-flex items-center py-2 px-4 mb-12 w-full">
                 <img src="/Icons/IconUtilisateur.svg" class="mr-2" alt="Icon utilisateur">
