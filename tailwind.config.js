@@ -1,18 +1,19 @@
 const formKitTailwind = require("@formkit/themes/tailwindcss");
 
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      "colorStyles": {
+      colors: {
         "OffWhite": "#FCFCFB",
         "LightBeige": "#EFECE6",
         "MediumBeige": "#CBC7BE",
         "MediumGray": "#4F4D4A",
-        "darkgray": "#232221"
+        "DarkGray": "#232221"
       },
-      "fontSize": {
+      fontSize: {
         "xs": "0.875",
         "sm": "0.625rem",
         "base": "1rem",
@@ -21,18 +22,19 @@ module.exports = {
         "xxl": "1.563",
         "big": "1.75"
       },
-      "fontFamily": {
+      fontFamily: {
         "raleway": "Raleway",
-        "athiti": "Athiti"
+        "athiti": ['Athiti', 'sans-serif']
       },
-      "borderRadius": {
+      borderRadius: {
         "none": "0",
         "xs": "0.313rem",
         "sm": "0.625rem",
         "base": "0.938rem",
         "lg": "1.25rem",
         "xl": "1.563rem",
-      }
+      },
+
 
     },
   },

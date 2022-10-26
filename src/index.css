@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    h1 {
+        @apply font-athiti font-normal text-xl pt-2 pb-6
+    }
+
+    h2 {
+        @apply font-athiti font-normal text-xl pt-2 pb-6
+    }
+
+    h3 {
+        @apply font-athiti font-light text-base
+    }
+
+    h4 {
+        @apply font-athiti font-bold text-lg my-3
+    }
+
+    p {
+        @apply font-raleway text-base
+    }
+
+    span {
+        @apply font-raleway text-lg
+    }
+}

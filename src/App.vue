@@ -1,21 +1,39 @@
 <template>
-  <header class="bg-darkgray">
+  <header class="bg-DarkGray">
     <div>
-      <RouterLink to="/" class="flex h-full items-center">
-      <img src="/Logo/TIK•TAK.svg" class="w-auto h-14" alt="Logo TIK•TAK">
+      <RouterLink to="/Accueil" class="flex h-full items-center">
+      <img src="/Logo/TIK•TAK.svg" class="w-auto h-6" alt="Logo TIK•TAK">
       </RouterLink>
     </div>
 
     <nav>
-      <h4 class="text-xl">
-        <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
-        menu (dans <code class="font-mono">/src/App.vue</code>)
-      </h4>
-      <ul>
+      <ul class="">
         <li>
-          <router-link class="text-red-600 underline" to="/">
-            lien vers
-            <code class="font-mono">/src/pages/index.vue</code>
+          <router-link class="text-OffWhite " to="/Authentification">
+            <h3>
+              Authentification
+            </h3>
+          </router-link>
+        </li>
+        <li>
+          <router-link class="text-OffWhite " to="/Personnalisation">
+            <h3>
+              Personnalisation
+            </h3>
+          </router-link>
+        </li>
+        <li>
+          <router-link class="text-OffWhite " to="/Athena">
+            <h3>
+              Athena
+            </h3>
+          </router-link>
+        </li>
+        <li>
+          <router-link class="text-OffWhite " to="/Vosmontres">
+            <h3>
+              Vosmontres
+            </h3>
           </router-link>
         </li>
       </ul>
@@ -23,28 +41,11 @@
   </header>
 
 
-
-<nav class="flex pr-8 pl-5 h-full">
-  <div class="pr-5 h-full flex items-center">
-    <RouterLink to="/Apropos">
-        <h3>A propos</h3>
-    </RouterLink>
-  </div>
-
-  
-  <div class="relative z-50 h-full flex items-center">
-    <Bouton class=" m-3">
-      <a href="https://rearts.leopold-ohnimus.fr"> 
-        S'inscrire
-      </a>
-    </Bouton>
-  </div>
-</nav>
-
   <!-- Affiche les pages -->
-  <Suspense>
-    <router-view class="m-2 border-2 p-2" />
-  </Suspense>
+  <main>
+    <router-view/>
+  </main>
+
 </template>
 
 <script setup lang="ts">
