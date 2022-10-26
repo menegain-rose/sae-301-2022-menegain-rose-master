@@ -6,8 +6,8 @@ import Bouton from "@/components/bouton.vue"
 <template>
   <section>
     <div class="grid grid-cols-3 bg-imageaccueil">
-      <div class="flex items-center">
-        <h2>
+      <div class="flex items-center m-10">
+        <h2 class="text-OffWhite">
           14 600 personnes l’ont adopté, <br>
           pourquoi pas vous ?
         </h2>
@@ -29,7 +29,7 @@ import Bouton from "@/components/bouton.vue"
             Personnaliser
           </h3>
         </Bouton>
-        <h2>
+        <h2 class="text-OffWhite">
           Personnalisez votre montre,pour qu’elle vous ressemble !
         </h2>
       </div>

@@ -8,12 +8,12 @@ import { supabase, user } from '../supabase';
 
 <template>
   <main class="my-20 mx-20">
-      <section v-if="user" class="text-OffWhite">
+    <section v-if="user" class="text-OffWhite">
       <button @pointerdown="supabase.auth.signOut()">
         <Bouton>
           Se déconnecter ({{user.email}})
         </Bouton>
-                </button>
+      </button>
     </section>
 
     <section  v-else class="bg-MediumBeige px-10 pb-10 rounded-lg">
@@ -27,7 +27,7 @@ import { supabase, user } from '../supabase';
           </p>
         </div>
         <div class="ml-10">
-          <div class="py-3 px-6 my-10 rounded-sm bg-[#3B5998] text-white flex">
+          <div class="py-3 px-6 my-10 rounded-sm bg-[#3B5998] text-white flex" @pointerdown="supabase.auth.signIn({ provider: 'facebook' })">
             <img src="/Images/IconFacebook.png" class="w-auto h-6 mr-6" alt="Icon Facebook">
             <p>
               Continuer avec Facebook
