@@ -4,72 +4,86 @@
 import Authentification from "@/pages/AuthentificationView.vue"
 import Personnalisation from "@/pages/PersonnalisationView.vue"
 import Vosmodeles from "@/pages/VosmodelesView.vue"
-
 import Bouton from "@/components/bouton.vue"
+
+import Facebook from "@/components/Icons/IconFacebook.vue"
+import Instagram from "@/components/Icons/IconInstagram.vue"
+import Youtube from "@/components/Icons/IconYoutube.vue"
+import Pinterest from "@/components/Icons/IconPinterest.vue"
+
 
 </script>
 
+
 <template>
-  <header class="bg-DarkGray flex px-10">
-    <div>
+  <header class="bg-DarkGray px-10">
+
+    <div class="flex justify-between">
+      <div>
       <RouterLink to="/" class="flex h-full items-center">
       <img src="/Logo/TIK•TAK.svg" class="w-auto h-4" alt="Logo TIK•TAK">
       </RouterLink>
     </div>
-
-    <nav>
-      <ul  class="flex ">
-
-        <li class="m-3">
-          <router-link to="/VosmodelesView">
+    
+    <div>
+      <nav>
+        <ul class="flex items-center">
+  
+          <li class="m-3">
+            <router-link to="/VosmodelesView">
+              <h3>
+                Vos Modèles
+              </h3>
+            </router-link>
+          </li>
+  
+          <li class="m-3">
             <h3>
-              Vos Modèles
+              Nos modèles
             </h3>
-          </router-link>
-        </li>
-
-        <li class="m-3">
-          <h3>
-            Nos modèles
-          </h3>
-        </li>
-
-        <li class="m-3">
-          <router-link to="/personnalisationview">
+          </li>
+  
+          <li class="m-3">
+            <router-link to="/personnalisationview">
+              <h3>
+                Personnalisation
+              </h3>
+            </router-link>
+          </li>
+  
+          <li class="m-3">
             <h3>
-              Personnalisation
+              Contact
             </h3>
-          </router-link>
-        </li>
+          </li>
+  
+          <li class="m-3">
+            <router-link to="/authentificationview">
+              <Bouton class="bg-opacity-25 text-OffWhite flex">
+                <img src="/Icons/IconProfil.svg" class="mr-2" alt="Icon Profil">
+                <h3>
+                  Connection
+                </h3>
+              </Bouton>
+            </router-link>
+          </li>
+  
+          <li class="m-3">
+            <img src="/Icons/IconFavoris.svg" class="mr-2" alt="Icon Favoris">
+          </li>
+  
+          <li class="m-3 flex">
+            <img src="/Icons/IconPanier.svg" class="mr-2" alt="Icon Panier">
+            <h4 class="text-OffWhite ">
+              0.00€
+            </h4>
+          </li>
+  
+        </ul>
+      </nav>
 
-        <li class="m-3">
-          <h3>
-            Contact
-          </h3>
-        </li>
-
-        <li class="m-3">
-          <router-link to="/authentificationview">
-            <Bouton class="bg-opacity-25 text-OffWhite flex">
-              <img src="/Icons/IconProfil.svg" class="mr-2" alt="">
-              Connection
-            </Bouton>
-          </router-link>
-        </li>
-
-        <li class="m-3">
-          <img src="/Icons/IconFavoris.svg" class="mr-2" alt="">
-        </li>
-
-        <li class="m-3">
-          <img src="/Icons/IconPanier.svg" class="mr-2" alt="">
-        </li>
-
-
-
-
-      </ul>
-    </nav>
+    </div>
+    </div>
   </header>
 
 
@@ -87,7 +101,7 @@ import Bouton from "@/components/bouton.vue"
       </RouterLink>
     </div>
 
-  <div class="flex grid-cols-3 mt-8 mx-48">
+  <div class="grid grid-cols-3 mt-8 mx-48">
     <div>
       <h3>
         A PROPOS
@@ -130,26 +144,26 @@ import Bouton from "@/components/bouton.vue"
           REJOINGNEZ-NOUS
         </h3>
       </div>
-      <div class="flex ">
-        <img src="/Icons/IconFacebook.svg" class="w-auto h-6" alt="Icon Facebook">
+      <div class="flex items-center -mt-2">
+        <Facebook class="mr-2"></Facebook>
         <h3>
           Facebook
         </h3>
       </div>
-      <div class="flex ">
-        <img src="Icons/IconInstagram.svg" class="w-auto h-6" alt="Icon Instagram">
+      <div class="flex items-center -mt-2">
+        <Instagram class="mr-2"></Instagram>
         <h3>
           Instagram
         </h3>
       </div>
-      <div class="flex ">
-        <img src="Icons/IconYoutube.svg" class="w-auto h-6" alt="Icon Youtube">
+      <div class="flex items-center -mt-2">
+        <Youtube class="mr-2"></Youtube>
         <h3>
           Youtube
         </h3>
       </div>
-      <div class="flex ">
-        <img src="Icons/IconPinterest.svg" class="w-auto h-6" alt="Icon Pinterest">
+      <div class="flex items-center -mt-2">
+        <Pinterest class="mr-2"></Pinterest>
         <h3>
           Pinterest
         </h3>
