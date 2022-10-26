@@ -36,8 +36,8 @@ import Bouton from "@/components/bouton.vue"
         </h2>
       </div>
     </div>
-    <div>
-      <div>
+    <div class="mx-36 my-10 mb-28">
+      <div class="mt-20">
         <h2>
           Les montres TIK•TAK sont réfléchies pour vous convenir le mieux possible
         </h2>
@@ -45,13 +45,13 @@ import Bouton from "@/components/bouton.vue"
           Découvrez nos modèles conçu par nos meilleurs designers. <br>
           Les montres TIK•TAK sont des montres professionnelles, simples et vous conviendrons très certainement.
         </p>
-        <Bouton class=" text-OffWhite flex">
+        <Bouton class=" text-OffWhite mt-7">
           <h3>
             Découvrir
           </h3>
         </Bouton>
       </div>
-      <div class="flex gap-10">
+      <div class="flex gap-10 justify-center mt-5">
         <router-link to="/AthenaView">
           <img src="/Images/ComposantMontreBeige.png" class="" alt="Composant Montre Beige">
         </router-link>
@@ -59,7 +59,7 @@ import Bouton from "@/components/bouton.vue"
         <img src="/Images/ComposantMontreVerte.png" class="" alt="Composant Montre Verte">
         <img src="/Images/ComposantMontreBleu.png" class="" alt="Composant Montre Bleu">
       </div>
-      <div>
+      <div class="mt-24">
         <h2>
           Nos montres waterproof !
         </h2>
@@ -67,13 +67,13 @@ import Bouton from "@/components/bouton.vue"
           Nos montres sont water proof; Vous voulez rester à la mode même en vous baignant ? <br>
           N’ayez plus d’hésitation et adoptez les montres TIK•TAK ! 
         </p>
-        <Bouton class=" text-OffWhite flex">
+        <Bouton class=" text-OffWhite mt-7">
             <h3>
               Découvrir
             </h3>
           </Bouton>
       </div>
-      <div class="flex">
+      <div class="mt-10 flex justify-center">
         <img src="/Images/Image_SousMarins.png" class="mr-5" alt="Image Sous Marins">
       </div>
     </div>
