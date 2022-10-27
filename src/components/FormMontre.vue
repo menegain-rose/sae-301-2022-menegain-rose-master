@@ -14,7 +14,7 @@ const props = defineProps<{
     id?: string;
 }>();
 
-const chaussure = ref<montre>(props.data ?? {});
+const Montre = ref<montre>(props.data ?? {});
 
     if (props.id) {
     // On charge les données de la Montre   
@@ -24,7 +24,7 @@ const chaussure = ref<montre>(props.data ?? {});
         .eq("id", props.id);
     if (error || !data)
         console.log("n'a pas pu charger le table Montre :", error);
-    else montre.value = data[0];
+    else Montre.value = data[0];
 }
 
 // @ts-ignore
@@ -40,10 +40,10 @@ async function upsertMontre(dataForm, node) {
 
 <template>
     <div class="p-2 flex flex-col md:flex-row items-center" v-bind="$attrs">
-        <Montre class="-mr-72" v-bind=chaussure id="profil" />
+        <Montre class="-mr-72" v-bind=Montre id="profil" />
 
         <div class="bg-DarkerGray p-16 rounded-xl">
-            <FormKit type="form" v-model="chaussure" @submit="upsertMontre" :submit-attrs="{
+            <FormKit type="form" v-model="Montre" @submit="upsertMontre" :submit-attrs="{
                 inputClass: 'text-OffWhite bg-MediumGray font-athiti font-light text-lg py-2 px-10 rounded-xs m-5 hover:border-blue-300',
             }">
                 <FormKitListColors name="bracelet" label="bracelet" />
