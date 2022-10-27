@@ -25,11 +25,14 @@ import Bouton from "@/components/bouton.vue"
             en ce moment !
           </h2>
         </div>
-        <Bouton class=" text-OffWhite w-max">
-          <h3>
-            Personnaliser
-          </h3>
-        </Bouton>
+        <router-link to="/Personnalisationview">
+          <Bouton class=" text-OffWhite w-max">
+            <h3>
+              Personnaliser
+            </h3>
+          </Bouton>
+
+        </router-link>
         <h2 class="text-OffWhite">
           Personnalisez votre montre, <br>
           pour qu’elle vous ressemble !
