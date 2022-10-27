@@ -14,7 +14,7 @@ const props = defineProps<{
     id?: string;
 }>();
 
-const montre = ref<montre>(props.data ?? {});
+const chaussure = ref<montre>(props.data ?? {});
 
 // @ts-ignore
 async function upsertMontre(dataForm, node) {
