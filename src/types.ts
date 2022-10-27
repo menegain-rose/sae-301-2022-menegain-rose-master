@@ -5,18 +5,22 @@ export interface montre {
 }
 
 export const colors = {
-  "#000000": "Noir",
-  "#AE4BD0": "Rose",
-  "#A42890": "Magenta",
-  "#821342": "RoseFoncé",
-  "#FF0000": "Rouge",
-  "#E36028": "Orange",
-  "#FFFFFF": "Blanc",
-  "#2B379E": "Bleu",
-  "#1E878D": "Cyan",
-  "#255329": "VertFoncé",
-  "#379220": "Vert",
-  "#FFFF00": "Jaune",
+  "#EA303E": "RedClear",
+  "#D3501F": "Orange",
+  "#AA4C18": "DarkOrange",
+  "#604728": "Marron",
+  "#582919": "DrakMarron",
+  "#F6EFE5": "OffWhite",
+  "#E8D6CC": "Beige",
+  "#BDA18B": "MediumBeige",
+  "#C1AD94": "Medium02Beige",
+  "#806855": "DarkBeige",
+  "#E5E5E5": "ClearGray",
+  "#848484": "MediumGray",
+  "#262626": "DarkGray",
+  "#000000": "Black",
+  "#354D59": "DarkBlue",
+  "#709CA7": "ClearBlue",
 };
 
 export const materiaux = [

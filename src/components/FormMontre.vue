@@ -27,12 +27,12 @@ async function upsertMontre(dataForm, node) {
 </script>
 
 <template>
-    <div class="p-2 flex flex-col md:flex-row gap-16 mt-40 items-center" v-bind="$attrs">
-        <Montre class="-mr-96" v-bind=chaussure id="profil" />
+    <div class="p-2 flex flex-col md:flex-row items-center" v-bind="$attrs">
+        <Montre class="-mr-72" v-bind=chaussure id="profil" />
 
-        <div class="bg-DarkerGray w-96 p-16 rounded-xl">
+        <div class="bg-DarkerGray p-16 rounded-xl">
             <FormKit type="form" v-model="chaussure" @submit="upsertMontre" :submit-attrs="{
-                inputClass: 'text-white border-2 border-white p-3 rounded-md hover:border-blue-300',
+                inputClass: 'text-OffWhite bg-MediumGray font-raleway font-normal text-lg py-1 px-10 rounded-xs m-5 hover:border-blue-300',
             }">
                 <FormKitListColors name="bracelet" label="bracelet" />
                 <FormKitListColors name="ecran" label="ecran" />

@@ -31,4 +31,8 @@
     span {
         @apply font-raleway text-lg
     }
+
+    legend {
+        @apply font-raleway text-lg
+    }
 }
