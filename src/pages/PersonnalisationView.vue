@@ -70,11 +70,6 @@ import FormMontre from "../components/FormMontre.vue"
                 Acheter
               </h3>
             </Bouton>
-            <Bouton class="text-OffWhite">
-              <h3>
-                Sauvegarder
-              </h3>
-            </Bouton>
         </div>
 
       </div>

@@ -32,7 +32,7 @@ async function upsertMontre(dataForm, node) {
 
         <div class="bg-DarkerGray p-16 rounded-xl">
             <FormKit type="form" v-model="chaussure" @submit="upsertMontre" :submit-attrs="{
-                inputClass: 'text-OffWhite bg-MediumGray font-raleway font-normal text-lg py-1 px-10 rounded-xs m-5 hover:border-blue-300',
+                inputClass: 'text-OffWhite bg-MediumGray font-athiti font-light text-lg py-2 px-10 rounded-xs m-5 hover:border-blue-300',
             }">
                 <FormKitListColors name="bracelet" label="bracelet" />
                 <FormKitListColors name="ecran" label="ecran" />
