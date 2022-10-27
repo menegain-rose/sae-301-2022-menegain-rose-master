@@ -5,6 +5,7 @@
 - **URL maquette Figma:** https://www.figma.com/file/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A3
 - **URL publique du site :** https://dazzling-lebkuchen-42612d.netlify.app
 - **URL projet Supabase :** https://elgrxopuisrndcgflxul.supabase.co
+- **HEROKU :** Vu avec le proffesseur, le container c'est bien créé, mais problème de déploiement. Voir pdf a la base du projet.
   - [X] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
 # Auto-évaluation
