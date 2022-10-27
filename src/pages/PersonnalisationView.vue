@@ -8,10 +8,6 @@ import FormMontre from "../components/FormMontre.vue"
 <template>
 
   <section>
-        <FormMontre />
-  </section>
-
-  <section>
     <div class="flex justify-center">
       <div class="bg-MediumBeige  py-2 inline-flex px-4  justify-center mb-12">
         <p class="mr-3">
@@ -29,84 +25,58 @@ import FormMontre from "../components/FormMontre.vue"
       </div>
     </div>
 
-
-    <div class="grid grid-cols-3">
+    <h2 class="ml-40 mb-5">
+        TIK•TAK les montres réfléchies pour vous
+    </h2>
+    <div class="grid grid-cols-2">
       <div>
-        <div class="flex items-end">
-          
-          <p class="text-sm line-through decoration-red-600"> 
-            2 150 €
-          </p>
-          <p>
-            1 612 €
-          </p>
 
-        </div>
-        <div class="bg-imagebras w-80 h-96 m-10">
-          <img src="/Montres/MontreSVG_Small.svg" class="relative left-16 top-[230px]" alt="svg montre sur poignet">
-        </div>
+          <FormMontre class="-mb-20 -mt-20"/>
+
       </div>
       <div>
-        <h2>
-          TIK•TAK les montres réfléchies pour vous
-        </h2>
-        <h5>
-          Couleurs
-        </h5>
-        <p>
-          Cadre
-        </p>
-        <p>
-          Bracelet
-        </p>
-        <p>
-          Ecran
-        </p>
-        <div class="mt-20">
-          <Bouton class="text-OffWhite mr-8">
-            <h3>
-              Acheter
-            </h3>
-          </Bouton>
+        <div>
+          <p class="m-3 -mt-2">
+            boitier
+          </p>
+          <p class="bg-MediumBeige w-40 mt-3 p-1 pl-3 rounded-xs">
+            Cuir
+          </p>
+          <p class="bg-MediumBeige w-40 mt-3 p-1 pl-3 text-red-600 rounded-xs">
+            OUT OF STOCK
+          </p>
+          <p class="bg-MediumBeige w-40 mt-3 p-1 pl-3 rounded-xs">
+            Plastique
+          </p>
+        </div>
+        <div>
+          <p class="m-3">
+            bracelet
+          </p>
+          <p class="bg-MediumBeige w-40 mt-3 p-1 pl-3 rounded-xs">
+            Cuir
+          </p>
+          <p class="bg-MediumBeige w-40 mt-3 p-1 pl-3 text-red-600 rounded-xs">
+            OUT OF STOCK
+          </p>
+          <p class="bg-MediumBeige w-40 mt-3 p-1 pl-3 rounded-xs">
+            Plastique
+          </p>
+        </div>
+
+        <div class="flex gap-10 mt-10">
           <Bouton class="text-OffWhite">
-            <h3>
-              Sauvegarder
-            </h3>
-          </Bouton>
+              <h3>
+                Acheter
+              </h3>
+            </Bouton>
+            <Bouton class="text-OffWhite">
+              <h3>
+                Sauvegarder
+              </h3>
+            </Bouton>
         </div>
-      </div>
-      <div>
-        <h5>
-          Matériaux
-        </h5>
-        <div>
-          <p class="bg-MediumBeige">
-            Cadre
-          </p>
-          <p>
-            Cuir
-          </p>
-          <p>
-            OUT OF STOCK
-          </p>
-          <p>
-            Plastique
-          </p>
-        </div>
-        <div>
-          <p>
-            Bracelet
-          </p>
-          <p>
-            Cuir
-          </p>
-          <p>
-            OUT OF STOCK
-          </p>
-          <p>
-            Plastique
-          </p>
-        </div>
+
       </div>
     </div>
 
