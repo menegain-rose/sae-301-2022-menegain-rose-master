@@ -39,10 +39,25 @@
 --
 -- code pour la création des policies
 --
-    Enable update for users based on email :
+    materiaux →
 
-        (uid() = id_users)
+        Policy name : Enable read access for all users
+        Target roles : x
+        USING expression : true
 
-        (uid() IN ( SELECT allmontres.id_users
-        FROM allmontres))
 
+    montre →
+
+        Policy name : Enable insert for authenticated users only
+        Target roles : authentificated
+        USING expression : true
+
+        Policy name : Enable read access for all users
+        Target roles : x
+        USING expression : true
+
+        Policy name : Enable update for users based on email
+        Target roles : x
+        USING expression : (uid() = id_user)
+        WITH CHECK expression : (uid() IN ( SELECT allmontre.id_user
+                                FROM allmontre))
