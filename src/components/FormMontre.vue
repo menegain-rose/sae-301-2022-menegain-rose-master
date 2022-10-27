@@ -24,7 +24,7 @@ const montres = ref<montre>(props.data ?? {});
         .eq("id_montre", props.id);
     if (error || !data)
         console.log("n'a pas pu charger le table Montre :", error);
-    else Montre.value = data[0];
+    else montres.value = data[0];
 }
 
 // @ts-ignore
