@@ -19,9 +19,9 @@ const montres = ref<montre>(props.data ?? {});
     if (props.id) {
     // On charge les données de la Montre   
     let { data, error } = await supabase
-        .from("Montre")
+        .from("montre")
         .select("*")
-        .eq("id", props.id);
+        .eq("id_montre", props.id);
     if (error || !data)
         console.log("n'a pas pu charger le table Montre :", error);
     else Montre.value = data[0];
