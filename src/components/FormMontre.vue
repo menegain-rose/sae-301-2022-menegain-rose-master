@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { montre } from '../types';
+import type { montre } from '@/types';
 import { reactive, ref } from 'vue';
 import { supabase } from "../supabase";
 import Montre from './Montre.vue';
