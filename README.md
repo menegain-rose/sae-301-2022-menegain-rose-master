@@ -3,7 +3,7 @@
 - **Nom :** Menegain
 - **Prénom :** Rose
 - **URL maquette Figma:** https://www.figma.com/file/YHhsoBp3XGR4SSKTrYiqKB/SAE301?node-id=6%3A3
-- **URL publique du site :**
+- **URL publique du site :** https://dazzling-lebkuchen-42612d.netlify.app
 - **URL projet Supabase :** https://elgrxopuisrndcgflxul.supabase.co
   - [X] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
@@ -14,8 +14,8 @@
 Vous avez rendu à la racine du projet :
 
 - [ ] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
-- [ ] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
-- [ ] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
+- [X] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
+- [X] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
 
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
 
