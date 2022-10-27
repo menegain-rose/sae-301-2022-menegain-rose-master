@@ -20,7 +20,7 @@ if (error) {
       Les montres que vous avez déjà confectionner
     </h2>
 
-    <ul class="border-black border-2 ">
+    <ul>
       <li v-for="m in montre" :key="m.id_montre">
         <Montre class="w-64" v-bind="m" />
       </li>
