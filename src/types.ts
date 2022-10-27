@@ -30,6 +30,10 @@ export const materiaux = [
   },
   {
     value: "src/assets/Métal.jpg",
-    label: "Metal",
+    label: "Argent",
+  },
+  {
+    value: "src/assets/Métal.jpg",
+    label: "Plastique",
   },
 ];

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Bouton from "@/components/bouton.vue"
 
-import FormMontre from "../components/FormMontre.vue"
+import FormMontre from "@/components/FormMontre.vue"
 
 </script>
 

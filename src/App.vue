@@ -94,7 +94,9 @@ import Pinterest from "@/components/Icons/IconPinterest.vue"
 
   <!-- Affiche les pages -->
   <main class="bg-OffWhite">
-    <router-view/>
+    <Suspense>
+      <router-view/>
+    </Suspense>
   </main>
 
 
