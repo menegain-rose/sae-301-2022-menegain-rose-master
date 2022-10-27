@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { supabase } from "@/supabase";
-import Montre from "../components/Montre.vue";
+import Montre from "@/components/Montre.vue";
 
 const props = defineProps<{
     max?: number;

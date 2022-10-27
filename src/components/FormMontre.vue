@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import type { montre } from '@/types';
 import { reactive, ref } from 'vue';
-import { supabase } from "../supabase";
+import { supabase } from "@/supabase";
 import Montre from './Montre.vue';
-import { colors } from '../types';
-import { materiaux } from '../types';
-import FormKitListColors from '../components/FormKitListColors.vue'
+import { colors, materiaux } from '@/types';
+import FormKitListColors from '@/components/FormKitListColors.vue'
+
 import { useRouter } from "vue-router";
 const router = useRouter();
 
@@ -15,6 +15,17 @@ const props = defineProps<{
 }>();
 
 const chaussure = ref<montre>(props.data ?? {});
+
+    if (props.id) {
+    // On charge les données de la Montre   
+    let { data, error } = await supabase
+        .from("Montre")
+        .select("*")
+        .eq("id", props.id);
+    if (error || !data)
+        console.log("n'a pas pu charger le table Montre :", error);
+    else montre.value = data[0];
+}
 
 // @ts-ignore
 async function upsertMontre(dataForm, node) {
